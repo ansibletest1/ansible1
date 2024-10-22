@@ -1,0 +1,8 @@
+---
+- name : hello ansi
+  hosts : ms
+  task :
+  - name : printing msg
+    debuge :
+    msg : "hello world "
+    
