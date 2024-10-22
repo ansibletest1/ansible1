@@ -1,8 +1,0 @@
----
-name : learn ansible
-day : 1
-continue : true
-  - sysOps
-  - cloud
-  - python
-  
