@@ -1,8 +1,7 @@
-#hello ansi how are you 
 ---
 - name: greeting msg
   hosts: all
   tasks: 
     - name: print hello ansi
       debug:
-      msg: "my world ji"
+        msg: "my world ji"
