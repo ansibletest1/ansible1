@@ -1,0 +1,9 @@
+# 01.greeting-world.yml
+---
+- name: Greeting World Playbook
+  hosts: all
+  tasks:
+    - name: Print Greets World
+      debug:
+        msg: "My World!"
+        
