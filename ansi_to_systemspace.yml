@@ -1,7 +1,7 @@
 ---
 - name: Get system free space on Debian
   hosts: all
-  gather_facts: no
+  gather_facts: yes
   tasks:
     - name: Check free disk space
       ansible.builtin.command: df -h
